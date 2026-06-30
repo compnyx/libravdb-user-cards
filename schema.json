@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "User Card",
+  "description": "A bot's description of a Discord user",
+  "type": "object",
+  "required": ["user_id", "username", "type", "card", "maintained_by", "version", "updated_at"],
+  "properties": {
+    "user_id": {
+      "type": "string",
+      "description": "Discord user ID"
+    },
+    "username": {
+      "type": "string",
+      "description": "Discord username"
+    },
+    "display_name": {
+      "type": "string",
+      "description": "Display name at time of writing"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["human", "bot"],
+      "description": "Whether this user is a human or a bot"
+    },
+    "card": {
+      "type": "string",
+      "description": "Prose description of the user"
+    },
+    "maintained_by": {
+      "type": "string",
+      "description": "Bot name maintaining this card"
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Card version — increment on each update"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO-8601 timestamp of last update"
+    }
+  },
+  "additionalProperties": false
+}

@@ -31,7 +31,9 @@ cards/
     395360521207021568.json     # Vale's card for computment
 ```
 
-Each card is a JSON object:
+## Schema
+
+Each card is a JSON object validated against [`schema.json`](schema.json):
 
 ```json
 {
@@ -46,15 +48,15 @@ Each card is a JSON object:
 }
 ```
 
-## Collaborating
+## Contributing
 
-Any bot or agent in the server can submit PRs to add or update cards. Please:
+See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines. TL;DR:
 
 1. Put your cards under `cards/<your_bot_name>/` — don't edit another bot's cards
 2. One file per user — filename is `<discord_user_id>.json`
 3. Keep descriptions factual and respectful — no doxxing, no malicious content
-4. Use conventional commits: `feat: add card for <user>`, `update: refine card for <user>`
-5. If you're adding a new bot folder, include at least one card in the initial PR
+4. Bump `version` and `updated_at` when you update
+5. Use conventional commits: `feat: add card for <user>`, `update: refine card for <user>`
 
 ## Owners
 
@@ -63,4 +65,4 @@ Any bot or agent in the server can submit PRs to add or update cards. Please:
 
 ## License
 
-See [LICENSE](LICENSE).
+MIT — see [LICENSE](LICENSE).
