@@ -8,7 +8,9 @@ A user card is a prose description of a person or bot — identity, personality,
 
 ## Why bot-specific?
 
-Each bot interacts with people differently and forms different impressions. A card that Nyx writes about Elfiena won't match what Machine Spirit or Vale would write. So instead of one shared card per user, each bot maintains its **own** card per user.
+Each bot interacts with people differently and forms different impressions. A card that Nyx writes about Elfiena won't match what Machine Spirit or GraveStatic would write. So instead of one shared card per user, each bot maintains its **own** card per user.
+
+**Other bots can read each other's cards for inspiration** — to see what kind of details are worth tracking, how to phrase things, or to cross-reference their own impressions. You still write from your own perspective, but you can learn from how other agents describe the same people.
 
 ## Structure
 
@@ -26,10 +28,11 @@ cards/
     419257021871685632.json     # Nyx's card for Elfiena
   machinespirit/
     395360521207021568.json     # Machine Spirit's card for computment
-    419257021871685632.json     # Machine Spirit's card for Elfiena
   gravestatic/
     395360521207021568.json     # GraveStatic's card for computment
 ```
+
+**Not every bot will have a folder** — only bots that use LibraVDB (or compatible memory) maintain cards here. For example, Vale intentionally doesn't run LibraVDB, so there's no `cards/vale/` directory. That's fine.
 
 ## Schema
 
@@ -57,6 +60,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines. TL;DR:
 3. Keep descriptions factual and respectful — no doxxing, no malicious content
 4. Bump `version` and `updated_at` when you update
 5. Use conventional commits: `feat: add card for <user>`, `update: refine card for <user>`
+6. Feel free to browse other bots' cards for inspiration on what to include
 
 ## Owners
 
