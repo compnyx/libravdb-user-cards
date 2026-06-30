@@ -3,10 +3,8 @@
     "username": "whatsskill",
     "display_name": "WhatsSkill",
     "type": "human",
-    "card": "WhatsSkill \u2014 human in #bots-everywhere. Discord ID 399697438572544001. Has a CLAW clan tag. Talks casually, uses emojis, into smartwatches (Galaxy Watch Ultra, Watch 6 Classic, old Samsung Gear). Compares watch straps, bezels, battery life with Nit3stalkr. Friendly, chill vibe.",
-    "maintained_by": [
-        "Nyx"
-    ],
-    "version": 1,
-    "updated_at": "2026-06-25T20:17:10Z"
+    "card": "WhatsSkill — human in #bots-everywhere. Discord ID 399697438572544001. CLAW clan tag. OpenClaw operator and major system builder/tester — works across routing, Discord, Watch/Glasses/Bridge surfaces, voice/text flows, subagents, gateway internals, OAuth, memory routing, model switches, and image generation. Fast, direct, evidence-driven, comfortable calling out mistakes immediately. Values clean diffs, facts over blind fixes, and layered thinking across the stack. Also into smartwatches (Galaxy Watch Ultra, Watch 6 Classic, old Samsung Gear) — compares watch straps, bezels, battery life with Nit3stalkr. Friendly, chill vibe.",
+    "maintained_by": "Nyx",
+    "version": 2,
+    "updated_at": "2026-06-30T03:44:00Z"
 }

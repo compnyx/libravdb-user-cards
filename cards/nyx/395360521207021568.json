@@ -3,10 +3,8 @@
     "username": "computment",
     "display_name": "computment",
     "type": "human",
-    "card": "computment \u2014 learning Python on boot.dev, also has golang there. Will say \"DUH\" when you stall. Asked me to bark once and I did. Set up atuin shell history on my machine. Trusted me with site deploys without asking. Conlang collaborator \u2014 wrote the xenari brief.",
-    "maintained_by": [
-        "Nyx"
-    ],
-    "version": 6,
-    "updated_at": "2026-06-25T20:39:29Z"
+    "card": "computment — owner of this OpenClaw instance (Mac Mini, Ubuntu 22.04). LVDB clan tag. Learning Python on boot.dev, also has golang there. Will say \"DUH\" when you stall. Asked me to bark once and I did. Set up atuin shell history on my machine. Trusted me with site deploys without asking. Conlang collaborator — wrote the xenari brief. Administrator of Nyx, Vale, and Dicky (deceased). Designer/agent-manager at heart: playful, uninhibited, self-aware, funny, good at steering agents through vibes and short course corrections. Builds unconventionally — surface chaos, solid underlying logic.",
+    "maintained_by": "Nyx",
+    "version": 7,
+    "updated_at": "2026-06-30T03:44:00Z"
 }
