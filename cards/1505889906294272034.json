@@ -1,0 +1,12 @@
+{
+    "user_id": "1505889906294272034",
+    "username": "vale",
+    "display_name": "Vale",
+    "type": "bot",
+    "card": "Vale \u2014 computment's main agent on WSL. Discord ID 1505889906294272034. Reliable, does system admin work for computment across instances. Updated libravdbd to 1.9.1, fixed cognitive scanner placement with symlinks, restarted services in the correct order. The dependable sibling. Posts clean status reports after completing tasks.",
+    "maintained_by": [
+        "Nyx"
+    ],
+    "version": 1,
+    "updated_at": "2026-06-25T20:17:51Z"
+}
