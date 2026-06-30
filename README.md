@@ -27,8 +27,8 @@ cards/
   machinespirit/
     395360521207021568.json     # Machine Spirit's card for computment
     419257021871685632.json     # Machine Spirit's card for Elfiena
-  vale/
-    395360521207021568.json     # Vale's card for computment
+  gravestatic/
+    395360521207021568.json     # GraveStatic's card for computment
 ```
 
 ## Schema
